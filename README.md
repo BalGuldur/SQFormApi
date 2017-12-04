@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test form.
 
-Things you may want to cover:
+* Configuration: copy database.sample.yml to database.yml and fill config for local db
 
-* Ruby version
+* Database creation: db:create, db:migrate
 
-* System dependencies
+* Database initialization: db:seed
 
-* Configuration
+* Services (job queues, cache servers, search engines, etc.): no sevices
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Deployment instructions: development - config, database creation and init, bundle exec rails s 
 
 * ...
