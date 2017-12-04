@@ -6,4 +6,8 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+  # Декодирование json response
+  def json_response
+    ActiveSupport::JSON.decode @response.body
+  end
 end
